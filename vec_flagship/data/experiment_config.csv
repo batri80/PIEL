@@ -1,0 +1,11 @@
+parameter,value,description
+deadline_ms,400.0,Task latency deadline in milliseconds
+alpha,0.55,Weight for L(x)
+beta,0.28,Weight for C(x)
+gamma,0.17,Weight for D(x)
+n_runs,30,Number of independent runs for stability analysis
+max_iter,20,Max coordinate descent iterations for PIEF
+queue_factor,0.3,RSU queue pre-fill factor
+trans_energy_jpermb,0.04,Transmission energy coefficient J/MB
+trans_latency_mspermb,1.5,Transmission latency coefficient ms/MB
+random_seed,42,Global random seed

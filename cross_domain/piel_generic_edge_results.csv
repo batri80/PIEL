@@ -1,0 +1,13 @@
+load_scenario,method,latency_ms,energy_J,success_pct
+Low (20%),FIFO,221.9686,4.6219,99.00
+Low (20%),Greedy,129.7795,7.0130,100.00
+Low (20%),Water-Filling,126.7817,6.5968,100.00
+Low (20%),PIEL,126.3526,5.6515,100.00
+Moderate (50%),FIFO,2638.2000,27.9551,76.33
+Moderate (50%),Greedy,242.2690,10.9605,100.00
+Moderate (50%),Water-Filling,251.8538,11.7858,100.00
+Moderate (50%),PIEL,226.7081,9.1478,100.00
+High (90%),FIFO,5436.3812,82.6347,37.67
+High (90%),Greedy,1265.8167,50.5876,24.33
+High (90%),Water-Filling,2712.2997,138.7962,37.33
+High (90%),PIEL,1201.3556,45.3670,25.33

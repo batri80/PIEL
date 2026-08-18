@@ -1,0 +1,45 @@
+========================================================================
+  NYC Yellow Taxi Trace -- PIEF v3 Evaluation
+========================================================================
+
+  Scenario: low_20  (n_tasks=27,240)
+  Method      Latency(ms)  Energy(J)  Success(%)
+  FIFO             193.76     4.5510       94.3%
+  Greedy           147.08     6.9204      100.0%
+  DQN              229.51     5.0509       95.6%
+  PIEF             142.01     6.0547      100.0%
+  PIEF load-balance entropy H(x) = 0.825  (1.0 = perfectly balanced)
+  Spatial origin distribution (nearest_rsu, informational only -- assignment is NOT constrained to this):
+    RSU 0 (Midtown Manhattan): 12,254 trips (45.0%)
+    RSU 1 (Lower Manhattan): 10,904 trips (40.0%)
+    RSU 2 (Upper Manhattan): 1,907 trips (7.0%)
+    RSU 3 (Brooklyn/Queens): 1,337 trips (4.9%)
+    RSU 4 (Bronx): 838 trips (3.1%)
+
+  Scenario: moderate_50  (n_tasks=53,402)
+  Method      Latency(ms)  Energy(J)  Success(%)
+  FIFO             421.12     7.6989       74.1%
+  Greedy           220.38     9.0300      100.0%
+  DQN              372.56     9.0902       69.8%
+  PIEF             215.58     8.0038      100.0%
+  PIEF load-balance entropy H(x) = 0.971  (1.0 = perfectly balanced)
+  Spatial origin distribution (nearest_rsu, informational only -- assignment is NOT constrained to this):
+    RSU 0 (Midtown Manhattan): 28,935 trips (54.2%)
+    RSU 1 (Lower Manhattan): 15,675 trips (29.4%)
+    RSU 2 (Upper Manhattan): 4,406 trips (8.3%)
+    RSU 3 (Brooklyn/Queens): 2,451 trips (4.6%)
+    RSU 4 (Bronx): 1,935 trips (3.6%)
+
+  Scenario: high_90  (n_tasks=157,226)
+  Method      Latency(ms)  Energy(J)  Success(%)
+  FIFO            3367.47    51.9300       36.3%
+  Greedy          1014.50    35.0605        0.0%
+  DQN             1045.19    34.2232        0.0%
+  PIEF            1015.48    34.4942        0.0%
+  PIEF load-balance entropy H(x) = 0.977  (1.0 = perfectly balanced)
+  Spatial origin distribution (nearest_rsu, informational only -- assignment is NOT constrained to this):
+    RSU 0 (Midtown Manhattan): 88,515 trips (56.3%)
+    RSU 1 (Lower Manhattan): 38,608 trips (24.6%)
+    RSU 2 (Upper Manhattan): 16,956 trips (10.8%)
+    RSU 3 (Brooklyn/Queens): 7,028 trips (4.5%)
+    RSU 4 (Bronx): 6,119 trips (3.9%)

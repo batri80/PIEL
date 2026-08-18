@@ -1,0 +1,6 @@
+rsu_id,type,capacity_ghz,power_watts,description
+0,fast,11.0,50.0,High-speed backbone RSU
+1,fast,9.0,40.0,High-speed backbone RSU
+2,balanced,7.5,28.0,Mid-tier balanced RSU
+3,efficient,6.0,18.0,Green energy-efficient RSU
+4,efficient,4.5,10.0,Green energy-efficient RSU
